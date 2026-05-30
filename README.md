@@ -1,5 +1,8 @@
 > **🚀 Ship Your App Faster**: Try [Fastforge](https://fastforge.dev) - The simplest way to build, package and distribute your Flutter apps.
 
+> **Note**: This is a maintained fork of [leanflutter/launch_at_startup](https://github.com/leanflutter/launch_at_startup).
+> Use it via git dependency — see [flutter-revived](https://github.com/flutter-revived) for details.
+> 
 # launch_at_startup
 
 [![pub version][pub-image]][pub-url] [![][discord-image]][discord-url] ![][visits-count-image]
@@ -62,6 +65,16 @@ dependencies:
     git:
       url: https://github.com/leanflutter/launch_at_startup.git
       ref: main
+```
+
+Or via flutter-revived fork (maintained, compatible with win32_registry ^3.0.0):
+
+```yaml
+dependencies:
+  launch_at_startup:
+    git:
+      url: https://github.com/flutter-revived/launch_at_startup.git
+      ref: <commit-hash>
 ```
 
 ### Usage

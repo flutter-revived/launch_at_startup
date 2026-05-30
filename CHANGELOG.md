@@ -1,3 +1,7 @@
+## 0.5.1+1 (flutter-revived)
+
+- chore: bump `win32_registry` to `^3.0.0`, update Windows registry calls
+
 ## 0.5.1
 
 - MSIX support args #37
